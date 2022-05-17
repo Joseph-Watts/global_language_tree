@@ -1,5 +1,6 @@
-#' Glottree is a R library that builds an ultrametric global tree of languages 
+#' This is an R library that builds an ultrametric global tree of languages 
 #' according to their language classification structure in Glottolog
+#' https://github.com/Joseph-Watts/global_language_tree
 
 #' The structure of this tree is massively simplified from the tree structures
 #' on Glottolog, and branches are proportional to langauge classification level
@@ -27,9 +28,11 @@
 #' 1. Glottolog includes dialects nested within dialects. 
 #'    For purposes of this tree, all dialects within a language are treated as 
 #'    being at the same level of the tree.
+
 #' 2. Code has been tested and run with R version 4.1.0 and Glottolog v4.3. 
 #'    If there are changes to Glottolog formatting, this package will require
-#'    updating    
+#'    updating.
+
 #' 3. The Glottolog data is licences under a Creative Commons Attribution 4.0 
 #'    International license.    
 
